@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="220" viewBox="0 0 420 220" role="img" aria-labelledby="title desc">
+  <title id="title">Prom „Wydra”</title>
+  <desc id="desc">Prosty rysunek ręcznego promu płynącego po rzece pod stalową liną.</desc>
+  <rect width="420" height="220" fill="#eef8fc"/>
+  <rect y="112" width="420" height="108" fill="#9bd5e8"/>
+  <path d="M0 145 Q35 135 70 145 T140 145 T210 145 T280 145 T350 145 T420 145" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M0 178 Q35 168 70 178 T140 178 T210 178 T280 178 T350 178 T420 178" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <path d="M35 58 Q210 38 385 58" fill="none" stroke="#555555" stroke-width="4"/>
+  <line x1="65" y1="55" x2="65" y2="112" stroke="#777777" stroke-width="3"/>
+  <line x1="355" y1="55" x2="355" y2="112" stroke="#777777" stroke-width="3"/>
+  <path d="M112 119 L310 119 L284 159 L138 159 Z" fill="#b96d3b" stroke="#6f3e24" stroke-width="3"/>
+  <rect x="151" y="94" width="118" height="25" rx="3" fill="#f4c56a" stroke="#6f3e24" stroke-width="2"/>
+  <rect x="164" y="100" width="22" height="13" fill="#dff5ff" stroke="#6f3e24"/>
+  <rect x="193" y="100" width="22" height="13" fill="#dff5ff" stroke="#6f3e24"/>
+  <rect x="222" y="100" width="22" height="13" fill="#dff5ff" stroke="#6f3e24"/>
+  <path d="M85 112 L112 119 M310 119 L337 112" fill="none" stroke="#555555" stroke-width="3"/>
+  <text x="210" y="143" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">WYDRA</text>
+  <text x="210" y="202" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#164e63">Ręczna przeprawa przez rzekę Mętną</text>
+</svg>
