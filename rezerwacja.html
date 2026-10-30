@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Przeprawa promowa „Wydra” - rezerwacja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Przeprawa promowa „Wydra” - rezerwacja</h1>
+    <ul>
+        <li><a href=index.html>Start</a></li>
+        <li><a href="rezerwacja.html">Rezerwacja dla grup</a></li>
+        <li><a href="regulamin.html">Regulamin</a></li>
+    </ul>
+</header>
+<main>
+    <h2>Rezerwacja dla grup </h2>
+    <p>Formularz służy do zgłoszeń grupowych w sezonie 2027</p>
+    <form>
+    <p><label>Nazwa grupy *</label><input type="text" required></p>
+    <p><labeL>Liczba osób (5–48) *</labeL><input type="number" id="liczba-osob" name="liczba-osob" min="5" max="48" step="1" required></p>
+    <p><label>Dzień przeprawy *</label><input type="date" min="2027-05-01" max="2027-09-30" required></p>
+    <fieldset>
+    <legend>Brzeg, z którego grupa odpływa *</legend>
+    <p><input type="radio" id="brzeg" name="category" value="brzeg" required><label for="brzeg">Brzeg Górny</label></p>
+    <p><input type="radio" id="kepa" name="category" value="kepa"><label for="kepa">Kępa Łąkowa</label></p>
+    </fieldset>
+    <p><label>Liczba rowerów (0–10)</label><input type="number" id="liczba-rowerow" name="liczba-rowerow" min="0" max="10" step="1"></p>
+    <p><label for="email">E-mail do kontaktu *</label><input type="email" id="email" name="email" required></p>
+    <p><label for="karnet">Numer karnetu grupowego (np. WY-0427)</label><input type="text" id="karnet" name="karnet" pattern="WY-[0-9]{4}"></p>
+    <p><button type="submit">Wyślij rezerwację</button></p>
+    </form>
+</main>
+<footer>
+        <p>Józef Wydra Brzeg Górny 7</p>
+        <p><a href="mailto:przeprawa.wydra@example.com">przeprawa.wydra@example.com</a></p>
+    </footer>
+</body>
+</html>
