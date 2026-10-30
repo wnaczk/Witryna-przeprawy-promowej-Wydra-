@@ -3,13 +3,128 @@
 <head>
   <meta charset="utf-8">
   <title>Przeprawa promowa „Wydra”</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
     <h1>Przeprawa promowa „Wydra”</h1>
+    <ul>
+        <li><a href=index.html>Start</a></li>
+        <li><a href="rezerwacja.html">Rezerwacja dla grup</a></li>
+        <li><a href="regulamin.html">Regulamin</a></li>
+    </ul>
+    </header>
+    <main>
     <p>Przeprawa łączy Brzeg Górny z Kępą Łąkową przez rzekę Mętną. Ręczny prom jest ciągnięty po linie rozpiętej nad wodą, a podróż trwa około 6 minut.</p>
     <p>Prom mieści 12 osób i 2 rowery. Nie przewozimy samochodów ani motocykli. Kursujemy od 1 maja do 30 września. Przy wysokim stanie wody przeprawa jest wstrzymana.</p>
     <p>Aktualny stan rzeki można sprawdzić w serwisie hydrologicznym <a href="https://hydro.imgw.pl/">IMGW</a>.</p>
+    <section>
+        <h2>Komunikaty</h2>
+        <article>
+            <h3>Komunikat pierwszy</h3>
+            <p><time datetime="2027-04-15">15-04-2027</time></p>
+                <p>wymiana liny prowadzącej, sezon rozpocznie się zgodnie z planem.</p>
+        </article>
+        <article>
+            <h3>Komunikat drugi</h3>
+            <p><time datetime="2027-04-28">28-04-2027</time></p>
+                <p>przy kładce w Kępie Łąkowej stanął nowy, szerszy trap,
+                rowery można teraz wprowadzać bez zdejmowania sakw.</p>
+        </article>
+    </section>
 
+    <section>
+        <h2>Rozkład kursów</h2>
+        <table>
+        <thead>
+        <tr>
+            <td></td>
+            <th scope="colgroup" colspan="2">Maj, czerwiec, wrzesień</th>
+            <th scope="colgroup" colspan="2">Lipiec, sierpień</th>
+        </tr>
+        <tr>
+            <th scope="col">Dni</th>
+            <th scope="col">Pierwszy kurs</th>
+            <th scope="col">Ostatni kurs</th>
+            <th scope="col">Pierwszy kurs</th>
+            <th scope="col">Ostatni kurs</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">Poniedziałek–piątek</th>
+            <td>7:00</td>
+            <td>18:00</td>
+            <td>6:30</td>
+            <td>20:00</td>
+        </tr>
+        <tr>
+            <th scope="row">Sobota</th>
+            <td>8:00</td>
+            <td>19:00</td>
+            <td rowspan="2">7:00</td>
+            <td rowspan="2">21:00</td>
+        </tr>
+        <tr>
+            <th scope="row">Niedziela i święta</th>
+            <td>9:00</td>
+            <td>19:00</td>
+        </tr>
+    </tbody>
+
+        </table>
+    </section>
+
+    <section>
+        <h2>Cennik</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rodzaj biletu lub przewozu</th>
+                    <th>Cena</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bilet normalny - jedna przeprawa</td>
+                    <td>6 zł</td>
+                </tr>
+                <tr>
+                    <td>Karnet normalny - 10 przepraw</td>
+                    <td>50 zł</td>
+                </tr>
+                <tr>
+                    <td>Bilet ulgowy - jedna przeprawa</td>
+                    <td>3 zł</td>
+                </tr>
+                <tr>
+                    <td>Karnet ulgowy - 10 przepraw</td>
+                    <td>25 zł</td>
+                </tr>
+                <tr>
+                    <td>Rower</td>
+                    <td>4 zł</td>
+                </tr>
+                <tr>
+                    <td>Pies</td>
+                    <td>2 zł</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="info-przepisy">
+            <h3>Informacje dodatkowe i ulgi</h3>
+            <dl>
+                <dt>Bilet i karnet ulgowy</dt>
+                <dd>Przysługuje dzieciom, uczniom, studentom i seniorom po ukończeniu 65. roku życia</dd>
+
+                <dt>Przewóz roweru i psa</dt>
+                <dd>Nie ma karnetów dla psów i dla rowerów</dd>
+            </dl>
+        </div>
+    </section>
+    
     <h2>Nasz prom</h2>
     <img src="prom.svg" alt="Rysunek ręcznego promu „Wydra” na rzece, z liną prowadzącą nad wodą" width="420" height="220">
 
@@ -45,8 +160,11 @@
         <dt>Kępa</dt>
         <dd>Wyspa albo kawałek lądu, który przy wysokiej wodzie bywa zalewany; od niej wzięła się nazwa wsi.</dd>
       </dl>
-
     <p><a href="regulamin.html">Przeczytaj regulamin przeprawy</a>.</p>
-    
+    </main>
+    <footer>
+        <p>Józef Wydra Brzeg Górny 7</p>
+        <p><a href="mailto:przeprawa.wydra@example.com">przeprawa.wydra@example.com</a></p>
+    </footer>
 </body>
 </html>
